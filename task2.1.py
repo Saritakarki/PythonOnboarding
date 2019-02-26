@@ -6,7 +6,7 @@ class TestString:
         self.inputStr = input("Enter the string")
 
     def printString(self):
-        print("String is: ", self.inputStr)
+        print("String is: ", self.inputStr.upper())
 
 
 test = TestString()
