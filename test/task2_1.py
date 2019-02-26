@@ -11,6 +11,7 @@ class GiveString:
     def print_string(self):
         self.finalString = self.inputStr.upper()
         print("String is: ", self.finalString)
+        return self.finalString
 
 
 if __name__ == '__main__':
