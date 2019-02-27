@@ -1,5 +1,5 @@
 import pandas as pd
-from database.mongoBasic import MongoConnect
+from database.mongo_basic import MongoConnect
 
 
 class CsvReader:
